@@ -98,10 +98,10 @@
     "@aws-sdk/types" "3.257.0"
     tslib "^2.3.1"
 
-"@aws-sdk/client-cognito-identity@3.262.0":
-  version "3.262.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.262.0.tgz#7b228be0d382bce08528898b18191fd6ca0063eb"
-  integrity sha512-Kmms7MZUR8Sl5PzgaWz/8rG+VkhKGQJEiY74VHLqJ/BLg4KyIYpHfqiif+J6/9HWN4SGFic1Aij37D5EFA9kgw==
+"@aws-sdk/client-cognito-identity@3.263.0":
+  version "3.263.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-cognito-identity/-/client-cognito-identity-3.263.0.tgz#2d3b5c026a4cfde3ecb836e32dad12c2f32fb4a8"
+  integrity sha512-owlk/yYL1vqkAFGvtOtEE7RzjjolnJ9n4dwb0+a7EkIZdnhj3dBegrbCBTMt/RuCLVAUpfqOgOSnUo2ikJIpXw==
   dependencies:
     "@aws-crypto/sha256-browser" "3.0.0"
     "@aws-crypto/sha256-js" "3.0.0"
@@ -268,12 +268,12 @@
     "@aws-sdk/util-middleware" "3.257.0"
     tslib "^2.3.1"
 
-"@aws-sdk/credential-provider-cognito-identity@3.262.0":
-  version "3.262.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.262.0.tgz#4df060e2dd2208b2dd188dec711ff5f72730dbda"
-  integrity sha512-oOVslglkpOoA8XUoc8yGGky+hUdDezx3CfzdrUg0TeyTqj3dVEEo+ghLk/ngne+T2t73revVJ2AAaOgVNomRcA==
+"@aws-sdk/credential-provider-cognito-identity@3.263.0":
+  version "3.263.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-3.263.0.tgz#6bcf7a56cee393e9b993acda57b02bb9d621d3dd"
+  integrity sha512-7ZGSLdIPsv6AZlGeibj9chXDlncHhhxb5aDO9oMNweracpByVw+tT5XMLrWQeaZYt7i+cqOqYfvbi5P6mVvX8w==
   dependencies:
-    "@aws-sdk/client-cognito-identity" "3.262.0"
+    "@aws-sdk/client-cognito-identity" "3.263.0"
     "@aws-sdk/property-provider" "3.257.0"
     "@aws-sdk/types" "3.257.0"
     tslib "^2.3.1"
@@ -361,14 +361,14 @@
     tslib "^2.3.1"
 
 "@aws-sdk/credential-providers@^3.186.0":
-  version "3.262.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-providers/-/credential-providers-3.262.0.tgz#c9eef9d13da4afa8fb1fb2a78534ddf34fe10eb0"
-  integrity sha512-sJcLaBcuXkeIqQuCEQK2OFgfsN0AcOpGa/7nRGUzh9/9bif0rl/xBi96Wqyeb7Tf71qZ9gcpBnDUaaK+O9q6mg==
+  version "3.263.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/credential-providers/-/credential-providers-3.263.0.tgz#056dfd976b8bc4810c0d6917d4194a513930c238"
+  integrity sha512-ty9M51y4gXz6AgSs9PgiE1xBLwTF3Wbsxphrl3jfCt/cd/9A8EHfzkGA1GL8jliw0BIoWKWtKu/Yow+cra7HPg==
   dependencies:
-    "@aws-sdk/client-cognito-identity" "3.262.0"
+    "@aws-sdk/client-cognito-identity" "3.263.0"
     "@aws-sdk/client-sso" "3.261.0"
     "@aws-sdk/client-sts" "3.262.0"
-    "@aws-sdk/credential-provider-cognito-identity" "3.262.0"
+    "@aws-sdk/credential-provider-cognito-identity" "3.263.0"
     "@aws-sdk/credential-provider-env" "3.257.0"
     "@aws-sdk/credential-provider-imds" "3.259.0"
     "@aws-sdk/credential-provider-ini" "3.261.0"
@@ -1648,9 +1648,9 @@
     "@types/estree" "*"
 
 "@types/eslint@*":
-  version "8.4.10"
-  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.4.10.tgz#19731b9685c19ed1552da7052b6f668ed7eb64bb"
-  integrity sha512-Sl/HOqN8NKPmhWo2VBEPm0nvHnu2LL3v9vKo8MEq0EtbJ4eVzGPl41VNPvn5E1i5poMk4/XD8UriLHpJvEP/Nw==
+  version "8.21.0"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.21.0.tgz#21724cfe12b96696feafab05829695d4d7bd7c48"
+  integrity sha512-35EhHNOXgxnUgh4XCJsGhE7zdlDhYDN/aMG6UbkByCFFNgQ7b3U+uVoqBpicFydR8JEfgdjCF7SJ7MiJfzuiTA==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
@@ -1728,10 +1728,15 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
-"@types/node@*", "@types/node@18.11.18":
+"@types/node@*":
   version "18.11.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
   integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
+
+"@types/node@16.18.11":
+  version "16.18.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.11.tgz#cbb15c12ca7c16c85a72b6bdc4d4b01151bb3cae"
+  integrity sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
